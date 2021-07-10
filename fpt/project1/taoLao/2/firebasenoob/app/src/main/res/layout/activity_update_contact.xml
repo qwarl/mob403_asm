@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UpdateContactActivity">
+    <TextView
+        android:id="@+id/tvAddContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nhập Contact Id:"
+        android:textSize="25sp" />
+    <EditText
+        android:id="@+id/etAddContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Contact Id ở đây"
+        android:inputType="textPersonName"
+        android:textSize="25sp" />
+    <TextView
+        android:id="@+id/tvAddName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nhập Ten:"
+        android:textSize="25sp" />
+    <EditText
+        android:id="@+id/etAddName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Tên ở đây"
+        android:inputType="textPersonName"
+        android:textSize="25sp" />
+    <TextView
+        android:id="@+id/tvAddEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nhập Email:"
+        android:textSize="25sp" />
+    <EditText
+        android:id="@+id/etAddEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Email ở đây"
+        android:inputType="textEmailAddress"
+        android:textSize="25sp" />
+    <TextView
+        android:id="@+id/tvAddPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nhập Phone:"
+        android:textSize="25sp" />
+    <EditText
+        android:id="@+id/etAddPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone ở đây"
+        android:inputType="phone"
+        android:textSize="25sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnUpdateContact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cập Nhật"
+            android:textSize="25sp" />
+        <Button
+            android:id="@+id/btnDel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Xóa"
+            android:textSize="25sp" />
+    </LinearLayout>
+</LinearLayout>
